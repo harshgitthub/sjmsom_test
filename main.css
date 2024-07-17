@@ -1,0 +1,304 @@
+
+body{
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(232, 224, 225);
+    color: black;
+    padding: 30px 0;
+    
+}
+.footer .widget-title {
+    font-size: 18px;
+    margin-bottom: opx;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer .text-gray2 {
+    color: black ;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .widget {
+    margin-bottom: 0px;
+}
+.footer .list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.footer .list-inline li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer .list-inline li a {
+    color: black;
+}
+.footer .social-icons {
+    margin-top: 20px;
+}
+.footer .social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+.footer .social-icons li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer .social-icons li a:hover {
+    color: black;
+}
+.footer .weather {
+    text-align: center;
+}
+.footer .weather-icon {
+    width: 50px;
+    height: 50px;
+}
+.footer .aqi {
+    font-weight: 600;
+}
+
+
+img {
+    z-index: 0;
+    width: 100%;
+}
+    
+
+
+      .col-xs-6,
+      .col-sm-6,
+      .col-md-3 {
+          min-height: 13.06em;
+          visibility: visible;
+          animation-name: fadeInLeft;
+      }
+      .ar-data-bg {
+          min-height: 100px;
+          background-color: #dc3545;
+      }
+      .features-box-colored {
+          text-align: center;
+          padding: 15px 0;
+          padding-top: 30px;
+          padding-bottom: 20px;
+          background-color: #dc3545;
+      }
+
+      .features-box-colored h4,
+      .features-box-colored i,
+      .features-box-colored p {
+          color: white;
+      }
+      .smooth-scroll-to-target {
+          color: #999999;
+          text-decoration: none;
+      }
+      
+      .pl-0 {
+          padding-left: 0 !important;
+      }
+      .pl-sm-15 {
+          padding-left: 5px !important;
+      }
+      .pr-0 {
+          padding-right: 0 !important;
+      }
+      .pr-sm-0 {
+          padding-right: 0 !important;
+      }
+      .mt-sm-0 {
+          margin-top: 0 !important;
+      }
+      .mb-0 {
+          margin-bottom: 0 !important;
+      }
+      .wow.fadeInLeft {
+          visibility: visible;
+          animation-name: fadeInLeft;
+      }
+      .animation-delay1 {
+          animation-delay: 1s;
+      }
+      .col-sm-3, .col-xs-6 {
+        
+        margin-bottom: 10px;
+    }
+    .icon-box {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        text-align: center;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .icon-box:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .icon-box-title {
+        font-size: 1.5em;
+        line-height: 1.2;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .text-theme-colored2 {
+        color: #dc3545; /* Change this to your theme color */
+    }
+    .icon-box p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: #777;
+        margin-bottom: 20px;
+    }
+    .btn-theme-colored2 {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #dc3545; /* Change this to your theme color */
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .btn-theme-colored2:hover {
+        background-color: white;
+        color: black;
+        border-color: black;
+        /* Darken the theme color on hover */
+    }   
+
+    .carousel-inner {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    .card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+   
+    .card-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        color: #333;
+    }
+    .card-text {
+        font-size: 1em;
+        color: #777;
+    }
+    .btn-primary {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+        background-color: white;
+        border-color:  black;
+        color: black;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    .card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card-img-top {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .card-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    .card-text {
+        font-size: 1em;
+        color: #7f8c8d;
+    }
+    .btn-primary {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+        background-color: white;
+        border-color:  black;
+        color: black;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .gallery-item {
+        position: relative;
+    }
+    .gallery-item .thumb {
+        position: relative;
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .overlay-shade {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .icons-holder {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .gallery-item:hover .overlay-shade,
+    .gallery-item:hover .icons-holder {
+        opacity: 1;
+    }
+    .styled-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .styled-icons a {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    a{
+        text-decoration: none;
+    }
